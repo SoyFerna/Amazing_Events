@@ -1,0 +1,71 @@
+
+.logo {
+    width: 11rem;
+    height: 3rem;
+  }
+  .checks {
+    display: inline-flex;
+  }
+  .amazeImage{
+    width: 25rem;
+    height: 15rem;
+  }
+  .amazeButton {
+    background-color: #d30505;
+    color: white;
+  }
+  .carouselItem{
+    text-decoration: none;
+    color: black;
+  }
+  .carouselItem:hover{
+    text-decoration: none;
+    color: #d30505;
+    transform: 3;
+  }
+  .amazeCheck {
+    background-color: white;
+  }
+  .amazeCheck:checked {
+    background-color: #dc0404;
+    border-color: white;
+  }
+  .amazeIcons{
+    color: gray;
+  }
+  .amazeIcons :hover{
+    color: #d30505;
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      width: 9rem;
+      height: 2rem;
+    }
+    .checks {
+      display: flex;
+      flex-flow: row nowrap;
+      overflow-x: scroll;
+      margin-bottom: 1rem;
+    }
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+  
+    background-size: 100%, 100%;
+  
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after {
+    content: ">";
+    font-size: 60px;
+    color: grey;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 60px;
+    color: grey;
+  }
