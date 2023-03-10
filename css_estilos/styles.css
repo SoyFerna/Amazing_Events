@@ -69,3 +69,11 @@
     font-size: 60px;
     color: grey;
   }
+
+  .container-fluid{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }

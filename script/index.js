@@ -9,7 +9,8 @@ function displayCard(arr){
 
     for(i = 0; i < arr.length; i++){
         card += 
-        ` <div class="d-flex justify-content-center flex-wrap text-center">
+        ` <div class="row ">
+        <div class="col-3"></div>
         <div class="card m-2 shadow" style="width: 18rem">
             <img src="${arr[i].image } " class="card-img-top" alt="..." height="150" />
             <div class="card-body">
@@ -23,6 +24,7 @@ function displayCard(arr){
                     <p>${arr[i].price }</p>
                     <a href="./details.html" class="btn amazeButton">See more...</a>
                 </div>
+            </div>
             </div>
         </div>`
     }
