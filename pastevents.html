@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="./home.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./upcomingevents.html">Upcoming Events</a>
@@ -79,8 +79,8 @@
     <main class="my-4 py-2 mx-2  rounded shadow bg-light">
         <div class="container-fluid my-2">
             <div class="row">
-                <div class="col">
-                    <div class="checks">
+                <div id="checks" class="checks">
+                    <!-- <div class="checks">
                         <div class="form-check mx-2">
                             <input class="form-check-input amazeCheck" type="checkbox" value="" id="flexCheckDefault" />
                             <label class="form-check-label" for="flexCheckDefault">
@@ -105,11 +105,11 @@
                                 Category
                             </label>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" aria-label="Search" />
+                    </div>-->
+                </div> 
+                <div id="input2" class="col">
+                    <form  class="d-flex">
+                        <input id="input" class="form-control me-2" type="search" aria-label="Search" placeholder="Search" />
                         <button class="btn amazeButton" type="submit">
                             <i class="bi bi-search"></i>
                         </button>
@@ -118,7 +118,6 @@
             </div>
         </div>
         <div class="container-fluid my-4" id="pasteventcontainer"></div>
-        <!-- <div class="container-fluid my-4">
             <div class="d-flex justify-content-center flex-wrap text-center">
                 <div class="card m-2 shadow" style="width: 18rem">
                     <img src="./media/Cine7.jpg" class="card-img-top" alt="..." height="150" />
